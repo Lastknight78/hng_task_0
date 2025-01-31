@@ -5,8 +5,8 @@ from pydantic import BaseModel
 
 class EmailTimestampResponse(BaseModel):
     email: str
-    timestamp: str
-    github: str
+    current_datetime: str
+    github_url: str
     
 app = FastAPI()
 
